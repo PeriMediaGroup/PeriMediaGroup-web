@@ -1,40 +1,22 @@
 body {
-  font-family: sans-serif;
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background: #f4f4f4;
-  color: #333;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
-header {
-  background: #111;
-  color: #fff;
-  padding: 1rem;
+.container {
   text-align: center;
 }
-header nav a {
-  color: #fff;
-  margin: 0 1rem;
-  text-decoration: none;
-}
-section {
-  padding: 2rem;
-}
-form input, form textarea {
-  width: 100%;
-  padding: 0.5rem;
+h1 {
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
-button {
-  padding: 0.7rem 1.5rem;
-  background: #111;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-footer {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
+p {
+  font-size: 1.5rem;
+  color: #ccc;
 }
